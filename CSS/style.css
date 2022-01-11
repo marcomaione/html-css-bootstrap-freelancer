@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
-.menù .container {
+.color {
+    background-color: rgb(39, 39, 53);
     min-height: 100px;
-    background-color: rgb(42, 48, 54);
+    border: solid 1px white;
 }
 
-.container {
-    background-color: lightseagreen;
+.color-1 {
+    background-color:lightseagreen;
+    min-height: 400px;
 }
+
+.color-2
