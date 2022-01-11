@@ -15,4 +15,12 @@
     min-height: 400px;
 }
 
-.color-2
+.color-2 {
+    background-color: rgb(76, 76, 104);
+    min-height: 400px;
+}
+
+.color-3 {
+    background-color: wheat;
+    min-height: 300px;
+}
