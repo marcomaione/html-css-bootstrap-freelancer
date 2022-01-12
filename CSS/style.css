@@ -1,26 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.ms_header {
+    background-color:#2c3e50 ;
 }
 
-.color {
-    background-color: rgb(39, 39, 53);
-    min-height: 100px;
-    border: solid 1px white;
-}
-
-.color-1 {
-    background-color:lightseagreen;
-    min-height: 400px;
-}
-
-.color-2 {
-    background-color: rgb(76, 76, 104);
-    min-height: 400px;
-}
-
-.color-3 {
-    background-color: wheat;
-    min-height: 300px;
+.ms_green {
+    background-color: #1abc9c;
 }
