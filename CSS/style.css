@@ -2,6 +2,18 @@
     background-color:#2c3e50 ;
 }
 
+#jumbotron {
+    padding-top: 150px;
+}
+
 .ms_green {
     background-color: #1abc9c;
+}
+
+.ms_footer_top {
+    background-color:#2c3e50 ;
+}
+
+.ms_footer_bottom {
+    background-color: #3a546d;
 }
