@@ -12,32 +12,25 @@
 </head>
 <body>
 
+<!--header-->
+
     <header>
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark ms_header text-uppercase">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark  ms_header text-uppercase">
             <div class="container-md">
-              <a class="navbar-brand fs-2" href="#">Start bootstrap</a>
+              <a class="navbar-brand fs-2 text-white" href="#">Start bootstrap</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">portfolio</a>
+                    <a class="nav-link ms_navbar_link" href="#">portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">about</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                   
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link ms_navbar_link" href="#">about</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled text-white">contact</a>
+                    <a class="nav-link ms_navbar_link" href="#">contact</a>
                   </li>
                 </ul>
                
@@ -46,56 +39,81 @@
           </nav>
     </header>
 
+<!--main-->
+
     <main>
         <section id="jumbotron" class="ms_green">
-            <div class="container text-center">
+            <div class="container text-center text-uppercase text-white">
                 <img src="img/avatar.svg" class="w-25" alt="">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <h1>start bootstrap</h1>
-                        <div class="row">
-                            <div class="col-12">
-                                <i class="bi bi-star-fill text-center"></i>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <h3>graphic artist - web designer - illustrator</h3>
-                        </div>
-                    </div>
+                <h1>start bootstrap</h1>
+                <div class="ms_star">
+                    <i class="bi bi-star-fill"></i>
                 </div>
-                
-    
+                <h3>graphic artist - web designer - illustrator</h3>
             </div>
         </section>
 
         <section id="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center text-uppercase">
                         <h2>portfolio</h2>
-                        <i class="bi bi-star-fill text-center"></i>
+                        <div class="ms_star_black">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
                     </div>
                 </div>
 
                 <div class="row g-4">
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/cabin.png" class="img-fluid rounded-3" alt="">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                          <img src="img/cabin.png" class="img-fluid " alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/cake.png"class="img-fluid rounded-3" alt="">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                          <img src="img/cake.png" class="img-fluid " alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/circus.png"class="img-fluid rounded-3" alt="">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                          <img src="img/circus.png" class="img-fluid " alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/game.png"class="img-fluid rounded-3" alt="">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                          <img src="img/game.png" class="img-fluid " alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/safe.png"class="img-fluid rounded-3" alt="">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                          <img src="img/safe.png" class="img-fluid " alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="img/submarine.png"class="img-fluid rounded-3" alt="">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                          <img src="img/submarine.png" class="img-fluid " alt="">
+                        </div>
                     </div>
+                   
                 </div>
             </div>
         </section>
@@ -106,10 +124,10 @@
                     <div class="col-8">
                         <div class="row">
                             <div class="col-12 text-center">
-                                <h2 class="text-white">About</h2>
+                                <h2 class="text-white text-uppercase">About</h2>
                                 <div class="row">
-                                    <div class="col-12">
-                                        <i class="bi bi-star-fill text-white"></i>
+                                    <div class="col-12 ms_star">
+                                        <i class="bi bi-star-fill text-white "></i>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +137,7 @@
                                 <p>Freelancer is a free bootstrap theme created by start bootstrap. the download includes the complete source files including HTML,CSS,and javascript as well as optional LESS stylesheets for easy customization</p>
                             </div>
                             <div class="col-12 col-md-6">
-                                <p>Freelancer is a free bootstrap theme created by start bootstrap. the download includes the complete source files including HTML,CSS,and javascript as well as optional LESS stylesheets for easy customization</p>
+                                <p class="text-start">Freelancer is a free bootstrap theme created by start bootstrap. the download includes the complete source files including HTML,CSS,and javascript as well as optional LESS stylesheets for easy customization</p>
                             </div>
                         </div>
                         <div class="row text-center">
@@ -134,9 +152,9 @@
 
         <section id="contact">
             <div class="container">
-                <h2 class="text-center">Contact me</h2>
+                <h2 class="text-center text-uppercase">Contact me</h2>
                    <div class="row text-center">
-                       <div class="col-12">
+                       <div class="col-12 ms_star_black">
                         <i class="bi bi-star-fill"></i>
                        </div>
                    </div>
@@ -145,41 +163,50 @@
                     <div class="col-12">
                         <form>
                             <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                <input type="text" placeholder="name" class="form-control border-bottom border-0 rounded-0">
                             </div>
                             <div class="mb-3">
-                              <label for="exampleInputPassword1" class="form-label">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="email" placeholder="email address" class="form-control border-bottom border-0 rounded-0">
                             </div>
-                            <div class="mb-3 form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <div class="mb-3">
+                                <input type="text" placeholder="phone number" class="form-control border-bottom border-0 rounded-0">
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="message" id="floatingTextarea"></textarea>
+                            </div>
 
-                    </div>
+                            <button type="submit" class="btn btn-primary ms_green">send</button>
+                        </form>
+                     </div>
                 </div>
             </div>
         </section>
     </main>
 
+<!--footer-->
+
     <footer>
         <div class="ms_footer_top">
-            <div class="container text-center">
+            <div class="container text-center text-uppercase">
                 <div class="row text-white">
                     <div class="col-12 col-lg-4">
                         <p>location</p>
+                        <p>2215 john daniel drive clark, MO 54243</p>
 
                     </div>
                     <div class="col-12 col-lg-4">
                         <p>around the web</p>
+                        <div class="social">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-google"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </div>
                         
                     </div>
                     <div class="col-12 col-lg-4">
                         <p>about freelancer</p>
+                        <p>freelance is a free to use, open source bootstrap theme created by start bootstrap</p>
                         
                     </div>
                 </div>

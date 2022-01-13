@@ -2,6 +2,18 @@
     background-color:#2c3e50 ;
 }
 
+section {
+    padding: 50px 0px;
+}
+
+.ms_navbar_link {
+    color:#fff !important ;
+}
+
+.ms_navbar_link:hover {
+    color:#1abc9c !important ;
+}
+
 #jumbotron {
     padding-top: 150px;
 }
@@ -10,10 +22,81 @@
     background-color: #1abc9c;
 }
 
+.ms_star::before, .ms_star::after {
+    content: "";
+    display:inline-block;
+    width: 15%;
+    border-radius: 4px;
+    height: 4px;
+    background-color:#fff;
+    vertical-align: middle;
+}
+
+.ms_star_black::before, .ms_star_black::after {
+    content: "";
+    display:inline-block;
+    width: 15%;
+    border-radius: 4px;
+    height: 4px;
+    background-color:black;
+    vertical-align: middle;
+}
+
+.ms_star, .ms_star_black {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.bi-star-fill {
+    width: 5%;
+    display: inline-block;
+
+}
+
+.ms_portfolio_item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.ms_layover {
+    position:absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26,188,156,0.75);
+}
+
+.bi-plus-lg {
+    color: #fff;
+    font-size: 140px;
+}
+
+.ms_portfolio_item:hover .ms_layover {
+    display: flex;
+
+}
+
+/*footer*/
+
 .ms_footer_top {
     background-color:#2c3e50 ;
+}
+
+.social .bi {
+    padding: 8px;
+    border: solid 1px white;
+    border-radius: 50%;
+    cursor: pointer;
+
 }
 
 .ms_footer_bottom {
     background-color: #3a546d;
 }
+
+
+
+
